@@ -1,0 +1,26 @@
+﻿
+# AI Models
+*.safetensors
+*.ckpt
+*.pth
+
+# Videos
+*.mp4
+*.mov
+*.webm
+
+# Generated Images
+generated/
+outputs/
+
+# Cache
+cache/
+temp/
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+
