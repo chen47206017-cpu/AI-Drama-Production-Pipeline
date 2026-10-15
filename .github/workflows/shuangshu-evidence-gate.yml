@@ -1,0 +1,24 @@
+name: Shuangshu Evidence Source Gate
+
+on:
+  pull_request:
+    paths:
+      - 'projects/shuangshu-shangtu/reviews/sourcepack_v23.36/**'
+      - 'projects/shuangshu-shangtu/scripts/candidates/V23.36R1_CANDIDATE_E001-E064.md'
+      - '.github/workflows/shuangshu-evidence-gate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-text-provenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Verify all 64 derived episodes and 8 reading batches exactly match source
+        run: python3 projects/shuangshu-shangtu/reviews/sourcepack_v23.36/verify_sourcepack.py
+      - name: Verify review evidence gate catches source and scene inventions
+        run: python3 -m unittest discover -s projects/shuangshu-shangtu/reviews/sourcepack_v23.36 -p 'test_*.py' -v
