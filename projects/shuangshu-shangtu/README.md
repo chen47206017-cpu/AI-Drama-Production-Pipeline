@@ -4,6 +4,13 @@
 >
 > 此目录是独立项目空间，不覆盖仓库已有影视制作工程。所有批改先在独立分支/Issue/PR进行，**不得绕过审批改写主线**。
 
+## 一键入口
+
+- [外部AI访问指南](AI_ACCESS_GUIDE.md) — 固定commit、默认分支陷阱与访问失败退路
+- [机器可读索引](AI_INDEX.json) — 当前源哈希、64集路径和8批阅读顺序
+- [逐集阅读目录](EPISODE_INDEX.md) — E001–E064直接链接
+- [外部AI审稿完整提示词](EXTERNAL_AI_REVIEW_PROMPT.md) — 版本锁定、逐集证据、因果回归与仓库评估
+
 ## 阅读顺序
 
 1. [版本指针](CURRENT_PROJECT_POINTER.md)
@@ -20,4 +27,4 @@
 
 ## 注意
 
-本仓库保持Private。AI平台必须连接到有权读取该私有仓库的GitHub账号；单独粘贴私有链接通常不能给未授权AI阅读权限。
+2026-10-16实际仓库可见性为 **PUBLIC**（而不是Private）：公开文件可被下载和复制；若仓库后来设为Private，外部AI须获得被授权的读取方式。**项目最新V23.33R1在 `ai-import/shuangshu-v23.33r1-20261016` 分支的Draft PR #1，默认 `main` 尚为V23.5R1。** GitHub代码搜索只索引默认分支，因此查不到不等于没有上传。详见 [访问指南](AI_ACCESS_GUIDE.md)。
