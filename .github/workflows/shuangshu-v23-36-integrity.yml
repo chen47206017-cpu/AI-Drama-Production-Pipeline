@@ -1,0 +1,21 @@
+name: Shuangshu V23.36 candidate integrity
+
+on:
+  pull_request:
+    paths:
+      - 'projects/shuangshu-shangtu/scripts/candidates/**'
+      - '.github/workflows/shuangshu-v23-36-integrity.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structural-provenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout review branch
+        uses: actions/checkout@v4
+      - name: Verify source blobs, episode deltas, frozen content and scene counts
+        run: python3 projects/shuangshu-shangtu/scripts/candidates/verify_v23_36.py
