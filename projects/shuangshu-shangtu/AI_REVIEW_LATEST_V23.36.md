@@ -1,3 +1,13 @@
+# 最新：更可靠的外部AI阅读/审稿入口
+
+**优先看这一版**：[防误判全文审查母提示词](reviews/sourcepack_v23.36/EXTERNAL_AI_VERIFIED_REVIEW_PROMPT.md) · [64集逐集阅读](reviews/sourcepack_v23.36/EPISODE_INDEX.md) · [8批阅读](reviews/sourcepack_v23.36/BATCH_INDEX.md) · [源文件清单](reviews/sourcepack_v23.36/SOURCE_MANIFEST.json) · [全文数据一致性校验](reviews/sourcepack_v23.36/verify_sourcepack.py) · [报告逐字引证校验](reviews/sourcepack_v23.36/verify_evidence.py)。
+
+外部AI先报告实际读取覆盖率、逐集两个不同场次的**精确原文**，并将剧本中的**事实**、对观众体验的**主观推断**与尚未写进正文的**创作建议**明确分开。若源文件未读取，必须回答UNREAD并终止对应结论。此前AI常把E024“二十名工人领薪”只说成查账，把E040–E048误报为回现代，必须先完成对应事实对抗测试。
+
+以上所有资料位于V23.36候选分支，未改正式V23.33指针；PGS30 HOLD。
+
+---
+
 # 第四轮AI协作唯一入口 — V23.36R1-CANDIDATE
 
 **重要：这是审核中的最新候选，不是正式CURRENT。** 正式工作稿仍V23.33R1、PGS30 HOLD；分支在 `review/shuangshu-v23.36r1-candidate-20261016`，未合并main。仓库为Public，公开文件可下载。
