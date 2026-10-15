@@ -1,0 +1,21 @@
+name: Shuangshu V23.35 candidate integrity
+
+on:
+  pull_request:
+    paths:
+      - 'projects/shuangshu-shangtu/scripts/candidates/**'
+      - '.github/workflows/shuangshu-v23-35-integrity.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structural-provenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout review changes
+        uses: actions/checkout@v4
+      - name: Check 64 episodes, 268 scenes, frozen E001–E005, exact changed episodes and hashes
+        run: python3 projects/shuangshu-shangtu/scripts/candidates/verify_v23_35.py
