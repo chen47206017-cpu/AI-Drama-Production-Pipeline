@@ -1,21 +1,20 @@
-# GitHub导入核验状态｜2026-10-16
+# 《双姝商途》GitHub导入核验状态（2026-10-16）
 
-## 已确认写入独立分支（尚未合并main）
-- 活跃完整母稿：`scripts/CURRENT_E001-E064.md` 与 `scripts/versions/V23.33R1.md`。
-- 母稿原始SHA256：`564f84a93308c23ee770d43d598847e58b4af7db39ff1c3b2c514f7a08707935`；Git blob SHA：`c507624f01f56aa2a4c5799ce0dd9fd415926738`；完整64集。
-- 逐集：`scripts/episodes/E001.md`–`E064.md`，均由同一完整母稿直接拆分，不重新创作。
-- 历史全稿：`scripts/versions/V23.22R1.md`–`V23.32R1.md`，以已校验Git对象SHA存档；V23.33R1另有全稿版本快照。
-- 协作约束：`AGENTS.md`、`canon/PROJECT_CANON.md`、`CURRENT_PROJECT_POINTER.md`、`reviews/REVIEW_TEMPLATE.md`、`reviews/README.md`。
-- 审稿辅助：Skill v2.2 核心说明（`skills/story-impact-v2.2/SKILL.md`）、通用记忆协议、研究报告、变更索引、PGS未放行台账、真实diff。
-- 主仓库原有项目文件未覆盖；新文件仅在 `projects/shuangshu-shangtu/` 下。
+## 事实核验：已导入独立分支，尚未合并main
 
-## 尚未作为GitHub二进制文件导入
-- 最新Word成稿、原始Skill v2.2 ZIP完整压缩包（含脚本/测试/参考文件）、整套交付ZIP与历史Word/ZIP资产。
-- 如需要所有原始二进制文件进入GitHub，必须另外通过Git LFS、Release asset、或具有二进制权限的上传方式导入。不能把单一SKILL.md视为已保存完整Skill ZIP。
-- 更早的V23.21R1及以前历史正文尚未包含在已声明的22–33版本范围；另行按来源/哈希核验后可继续归档。
+- V23.33R1整本 **64集/268场** Markdown：`scripts/CURRENT_E001-E064.md`、`scripts/versions/V23.33R1.md`，源 SHA256 `564f84a93308c23ee770d43d598847e58b4af7db39ff1c3b2c514f7a08707935`，Git blob `c507624f01f56aa2a4c5799ce0dd9fd415926738`，已校验一致。
+- 逐集独立文件 `scripts/episodes/E001.md`–`E064.md`，由整本母稿直接拆分，未另行改写。
+- 12版历史完整 Markdown：V23.22R1–V23.33R1。详见 `manifests/verified_script_versions.json` 和 `manifests/IMPORT_MANIFEST.md` 的SHA256/Git SHA双清单。
+- 二进制原样存档 **4份已完成且哈希与本地原件匹配**：`releases/V23.33R1/V23.33R1_full_script_HOLD.docx`、`releases/V23.33R1/V23.33R1_audit_report_HOLD.docx`、`releases/V23.33R1/V23.33R1_complete_delivery_HOLD.zip`、`skills/story-impact-v2.2/Story_Impact_Adversarial_Audit_Skill_v2.2.zip`。
+- 共用AI规范：`AGENTS.md`、`canon/PROJECT_CANON.md`、`CURRENT_PROJECT_POINTER.md`、`reviews/REVIEW_TEMPLATE.md`、`memory/portable_memory_v2.2.md` 等已上传。
+- 审计：报告、差异、CSV/JSON记录、PGS HOLD清单和 `tools/validate_project.py` 源文件验证脚本均已上传。
+- 在PR范围内检查：**所有新增路径均在 `projects/shuangshu-shangtu/`**，原仓库工程不被覆盖。
 
-## 未完成生产验收
-PGS30 HOLD；初始120文历史来源、大晟经营与身份制度、演员实测时长/用户观看留存仍未通过独立Release Assurance。
+## 未导入/未证明的范围
 
-## 合并纪律
-本次为审查PR，不自动合并main；缺失二进制/更早版本不得误写为“全部完成”。
+- V23.21R1及更早历史工作稿、历次每轮的单独Word/ZIP资产，尚未逐项存档。已存入的是**12版完整Markdown历史母稿以及最新版本4个原样二进制文件**，不能称为“全部历史所有附件”。
+- `main` 仍未合并。本批文件只处于Draft PR待审状态，其他AI需获私有仓库权限。
+- Skill的旧版测试结果不能自动视为当前环境运行验证；需在克隆仓库后执行本项目验证脚本及Skill单元测试。
+- PGS30仍为HOLD，120文历史来源、架空制度、真人150秒实际时长、首看留存仍需单独验证；市场SSS不能提前授予。
+
+权威来源：`manifests/IMPORT_MANIFEST.md`；这份文件是**导入完成度说明**，不是Production Clean放行凭据。
