@@ -1,0 +1,51 @@
+name: Shuangshu Export V23.37 Complete Script
+
+on:
+  pull_request:
+    paths:
+      - 'projects/shuangshu-shangtu/tools/export_candidate_v23_37.py'
+      - 'projects/shuangshu-shangtu/scripts/candidates/V23.37R1_CANDIDATE_E001-E064.md'
+      - '.github/workflows/shuangshu-v23-37-export.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact review branch
+        uses: actions/checkout@v4
+      - name: Use Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Word generator
+        run: python -m pip install --disable-pip-version-check python-docx==1.2.0
+      - name: Verify Git source and export Markdown TXT Word
+        run: python projects/shuangshu-shangtu/tools/export_candidate_v23_37.py
+      - name: Validate exported source and Word package
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile,json
+          p=Path('dist/shuangshu_v23_37')
+          m=json.loads((p/'SOURCE_VERIFICATION.json').read_text(encoding='utf-8'))
+          assert m['episodes']==64 and m['scenes']==268
+          for f in m['files']:
+              assert (p/f).stat().st_size > 10000
+          d=next(p.glob('*.docx'))
+          with zipfile.ZipFile(d) as z:
+              assert z.testzip() is None
+              assert 'word/document.xml' in z.namelist()
+          print('VALIDATED:',m['source_git_blob'],m['files'])
+          PY
+      - name: Upload full script
+        uses: actions/upload-artifact@v4
+        with:
+          name: shuangshu-v23.37r1-complete-script
+          path: dist/shuangshu_v23_37/*
+          if-no-files-found: error
+          retention-days: 90
