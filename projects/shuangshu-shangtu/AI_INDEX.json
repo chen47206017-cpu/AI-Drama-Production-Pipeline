@@ -1,0 +1,412 @@
+{
+  "schema_version": "1.0",
+  "project": "双姝商途",
+  "slug": "shuangshu-shangtu",
+  "repository": "chen47206017-cpu/AI-Drama-Production-Pipeline",
+  "canonical_version": "V23.33R1",
+  "state": "PGS30 HOLD / NOT PRODUCTION CLEAN",
+  "reference_branch": "ai-import/shuangshu-v23.33r1-20261016",
+  "pinned_source_commit": "3130043f68a85411c8e1e5832296ad4e302178bd",
+  "script_path": "projects/shuangshu-shangtu/scripts/CURRENT_E001-E064.md",
+  "version_archive_path": "projects/shuangshu-shangtu/scripts/versions/V23.33R1.md",
+  "manuscript_git_blob_sha1": "c507624f01f56aa2a4c5799ce0dd9fd415926738",
+  "manuscript_sha256": "564f84a93308c23ee770d43d598847e58b4af7db39ff1c3b2c514f7a08707935",
+  "manuscript_bytes": 210320,
+  "episode_count": 64,
+  "scene_count": 268,
+  "episode_frozen": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E005"
+  ],
+  "mandatory_read_paths": [
+    "projects/shuangshu-shangtu/CURRENT_PROJECT_POINTER.md",
+    "projects/shuangshu-shangtu/AGENTS.md",
+    "projects/shuangshu-shangtu/canon/PROJECT_CANON.md",
+    "projects/shuangshu-shangtu/scripts/CURRENT_E001-E064.md",
+    "projects/shuangshu-shangtu/skills/story-impact-v2.2/SKILL.md",
+    "projects/shuangshu-shangtu/audits/OPEN_GATES.md"
+  ],
+  "review_template": "projects/shuangshu-shangtu/reviews/REVIEW_TEMPLATE.md",
+  "supplemental": "projects/shuangshu-shangtu/audits/V23.32R1_to_V23.33R1.diff",
+  "batches": [
+    {
+      "id": "B01",
+      "episodes": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006",
+        "E007",
+        "E008"
+      ],
+      "recommended_reading": "sequential; mark each episode read before claiming full coverage"
+    },
+    {
+      "id": "B02",
+      "episodes": [
+        "E009",
+        "E010",
+        "E011",
+        "E012",
+        "E013",
+        "E014",
+        "E015",
+        "E016"
+      ],
+      "recommended_reading": "sequential; mark each episode read before claiming full coverage"
+    },
+    {
+      "id": "B03",
+      "episodes": [
+        "E017",
+        "E018",
+        "E019",
+        "E020",
+        "E021",
+        "E022",
+        "E023",
+        "E024"
+      ],
+      "recommended_reading": "sequential; mark each episode read before claiming full coverage"
+    },
+    {
+      "id": "B04",
+      "episodes": [
+        "E025",
+        "E026",
+        "E027",
+        "E028",
+        "E029",
+        "E030",
+        "E031",
+        "E032"
+      ],
+      "recommended_reading": "sequential; mark each episode read before claiming full coverage"
+    },
+    {
+      "id": "B05",
+      "episodes": [
+        "E033",
+        "E034",
+        "E035",
+        "E036",
+        "E037",
+        "E038",
+        "E039",
+        "E040"
+      ],
+      "recommended_reading": "sequential; mark each episode read before claiming full coverage"
+    },
+    {
+      "id": "B06",
+      "episodes": [
+        "E041",
+        "E042",
+        "E043",
+        "E044",
+        "E045",
+        "E046",
+        "E047",
+        "E048"
+      ],
+      "recommended_reading": "sequential; mark each episode read before claiming full coverage"
+    },
+    {
+      "id": "B07",
+      "episodes": [
+        "E049",
+        "E050",
+        "E051",
+        "E052",
+        "E053",
+        "E054",
+        "E055",
+        "E056"
+      ],
+      "recommended_reading": "sequential; mark each episode read before claiming full coverage"
+    },
+    {
+      "id": "B08",
+      "episodes": [
+        "E057",
+        "E058",
+        "E059",
+        "E060",
+        "E061",
+        "E062",
+        "E063",
+        "E064"
+      ],
+      "recommended_reading": "sequential; mark each episode read before claiming full coverage"
+    }
+  ],
+  "episode_files": [
+    {
+      "id": "E001",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E001.md"
+    },
+    {
+      "id": "E002",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E002.md"
+    },
+    {
+      "id": "E003",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E003.md"
+    },
+    {
+      "id": "E004",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E004.md"
+    },
+    {
+      "id": "E005",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E005.md"
+    },
+    {
+      "id": "E006",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E006.md"
+    },
+    {
+      "id": "E007",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E007.md"
+    },
+    {
+      "id": "E008",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E008.md"
+    },
+    {
+      "id": "E009",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E009.md"
+    },
+    {
+      "id": "E010",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E010.md"
+    },
+    {
+      "id": "E011",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E011.md"
+    },
+    {
+      "id": "E012",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E012.md"
+    },
+    {
+      "id": "E013",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E013.md"
+    },
+    {
+      "id": "E014",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E014.md"
+    },
+    {
+      "id": "E015",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E015.md"
+    },
+    {
+      "id": "E016",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E016.md"
+    },
+    {
+      "id": "E017",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E017.md"
+    },
+    {
+      "id": "E018",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E018.md"
+    },
+    {
+      "id": "E019",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E019.md"
+    },
+    {
+      "id": "E020",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E020.md"
+    },
+    {
+      "id": "E021",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E021.md"
+    },
+    {
+      "id": "E022",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E022.md"
+    },
+    {
+      "id": "E023",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E023.md"
+    },
+    {
+      "id": "E024",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E024.md"
+    },
+    {
+      "id": "E025",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E025.md"
+    },
+    {
+      "id": "E026",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E026.md"
+    },
+    {
+      "id": "E027",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E027.md"
+    },
+    {
+      "id": "E028",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E028.md"
+    },
+    {
+      "id": "E029",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E029.md"
+    },
+    {
+      "id": "E030",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E030.md"
+    },
+    {
+      "id": "E031",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E031.md"
+    },
+    {
+      "id": "E032",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E032.md"
+    },
+    {
+      "id": "E033",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E033.md"
+    },
+    {
+      "id": "E034",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E034.md"
+    },
+    {
+      "id": "E035",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E035.md"
+    },
+    {
+      "id": "E036",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E036.md"
+    },
+    {
+      "id": "E037",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E037.md"
+    },
+    {
+      "id": "E038",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E038.md"
+    },
+    {
+      "id": "E039",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E039.md"
+    },
+    {
+      "id": "E040",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E040.md"
+    },
+    {
+      "id": "E041",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E041.md"
+    },
+    {
+      "id": "E042",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E042.md"
+    },
+    {
+      "id": "E043",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E043.md"
+    },
+    {
+      "id": "E044",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E044.md"
+    },
+    {
+      "id": "E045",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E045.md"
+    },
+    {
+      "id": "E046",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E046.md"
+    },
+    {
+      "id": "E047",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E047.md"
+    },
+    {
+      "id": "E048",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E048.md"
+    },
+    {
+      "id": "E049",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E049.md"
+    },
+    {
+      "id": "E050",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E050.md"
+    },
+    {
+      "id": "E051",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E051.md"
+    },
+    {
+      "id": "E052",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E052.md"
+    },
+    {
+      "id": "E053",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E053.md"
+    },
+    {
+      "id": "E054",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E054.md"
+    },
+    {
+      "id": "E055",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E055.md"
+    },
+    {
+      "id": "E056",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E056.md"
+    },
+    {
+      "id": "E057",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E057.md"
+    },
+    {
+      "id": "E058",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E058.md"
+    },
+    {
+      "id": "E059",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E059.md"
+    },
+    {
+      "id": "E060",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E060.md"
+    },
+    {
+      "id": "E061",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E061.md"
+    },
+    {
+      "id": "E062",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E062.md"
+    },
+    {
+      "id": "E063",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E063.md"
+    },
+    {
+      "id": "E064",
+      "path": "projects/shuangshu-shangtu/scripts/episodes/E064.md"
+    }
+  ],
+  "authoritative_reading_rule": "Read target ref/commit directly; GitHub code search normally indexes only main/default branch. No verified access = no claim of full review.",
+  "safeguards": [
+    "Do not modify the screenplay on the audit branch without explicit owner authorization.",
+    "Any review must cite exact source lines and scenes.",
+    "No AI may treat PGS HOLD as release approval."
+  ]
+}

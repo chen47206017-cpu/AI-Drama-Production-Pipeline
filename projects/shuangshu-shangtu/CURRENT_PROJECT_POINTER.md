@@ -1,0 +1,11 @@
+# CURRENT_PROJECT_POINTER
+- Latest verified script: **V23.33R1**, E001–E064 / 268场
+- Canon source: `scripts/CURRENT_E001-E064.md`
+- Version archive: `scripts/versions/V23.33R1.md`
+- SHA256 (exact original full Markdown): `564f84a93308c23ee770d43d598847e58b4af7db39ff1c3b2c514f7a08707935`
+- Git blob SHA1 (byte-exact): `c507624f01f56aa2a4c5799ce0dd9fd415926738`
+- Skill: **Story Impact Adversarial Audit v2.2**
+- PGS floor: 30.0; status: **HOLD / NOT PRODUCTION CLEAN**
+- Frozen: E001–E005
+- Proposed import branch pending maintainer PR review; main remains unchanged
+- Date: 2026-10-16

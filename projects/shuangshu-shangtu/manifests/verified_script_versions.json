@@ -1,0 +1,85 @@
+{
+  "title": "《双姝商途》历史母稿溯源",
+  "project": "shuangshu-shangtu",
+  "accepted_source": "V23.33R1",
+  "state": "HOLD",
+  "hash_algorithm": "SHA256",
+  "versions": [
+    {
+      "version": "V23.22R1",
+      "bytes": 197428,
+      "sha256": "b9352d69484f6ae2ae0ed880125db1de6f4c6aa54d03d3e2fb834e3021c89efb",
+      "path": "scripts/versions/V23.22R1.md"
+    },
+    {
+      "version": "V23.23R1",
+      "bytes": 201434,
+      "sha256": "60342b42638f50f4cd6b08ef20e53d72c33201f1c70892c733b90c5d16bf3448",
+      "path": "scripts/versions/V23.23R1.md"
+    },
+    {
+      "version": "V23.24R1",
+      "bytes": 199381,
+      "sha256": "55ee3f7802a5040c459f5861590927082f8a6a11c184e32adebb266991ce4f5c",
+      "path": "scripts/versions/V23.24R1.md"
+    },
+    {
+      "version": "V23.25R1",
+      "bytes": 206819,
+      "sha256": "75b46958c56bfc5eefa3a96acc1968744577f375ed73038a4874ae144e77b69d",
+      "path": "scripts/versions/V23.25R1.md"
+    },
+    {
+      "version": "V23.26R1",
+      "bytes": 209598,
+      "sha256": "a27546b4ab8163208d4390005bbf66c80646974d5a052eeed37b044c9c1b4df1",
+      "path": "scripts/versions/V23.26R1.md"
+    },
+    {
+      "version": "V23.27R1",
+      "bytes": 209858,
+      "sha256": "bb75de2b345144125e32c9916f1b00e46508fb3303d41542eb9ddc4d5b934480",
+      "path": "scripts/versions/V23.27R1.md"
+    },
+    {
+      "version": "V23.28R1",
+      "bytes": 205626,
+      "sha256": "718a2894d8cb1e080140fe4ec6ec6bb868674b84a873ce7b3f47a666016040d0",
+      "path": "scripts/versions/V23.28R1.md"
+    },
+    {
+      "version": "V23.29R1",
+      "bytes": 206421,
+      "sha256": "a66b203e5604c3a1822690855e2dd64e60d19455c336a838eb0f6fda439ffaf7",
+      "path": "scripts/versions/V23.29R1.md"
+    },
+    {
+      "version": "V23.30R1",
+      "bytes": 207098,
+      "sha256": "d6e0ea850f5dbbc4981f844aeb3510023799c51d249e1b04a6ec4d7293c08c95",
+      "path": "scripts/versions/V23.30R1.md"
+    },
+    {
+      "version": "V23.31R1",
+      "bytes": 207869,
+      "sha256": "94b7bb0f373745b9bd1218debe1676c8612d5040588a7297162caf935cae0af5",
+      "path": "scripts/versions/V23.31R1.md"
+    },
+    {
+      "version": "V23.32R1",
+      "bytes": 208547,
+      "sha256": "95c3dc554a62f41231ed158c3d5c0ed426db8f196b26348a7a53b0490a6d01db",
+      "path": "scripts/versions/V23.32R1.md"
+    },
+    {
+      "version": "V23.33R1",
+      "bytes": 210320,
+      "sha256": "564f84a93308c23ee770d43d598847e58b4af7db39ff1c3b2c514f7a08707935",
+      "path": "scripts/versions/V23.33R1.md"
+    }
+  ],
+  "episodes_source": "scripts/CURRENT_E001-E064.md",
+  "count": 64,
+  "scene_count": 268,
+  "note": "Hash refers to original immutable UTF-8 Markdown source. Some generated Word/ZIP artifacts are NOT part of the Markdown exact-hash archive."
+}
