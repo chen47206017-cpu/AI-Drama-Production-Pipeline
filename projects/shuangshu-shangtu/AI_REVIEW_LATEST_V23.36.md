@@ -1,3 +1,5 @@
+外部AI若报告 `chrome-error` / `DisabledError` / raw空内容：先使用 [GitHub外部AI读取排障指南](AI_ACCESS_FALLBACK_V23.36.md)；无法读时只能报UNREAD，不得用V23.33旧稿代替本版本。
+
 # 最新：更可靠的外部AI阅读/审稿入口
 
 **优先看这一版**：[防误判全文审查母提示词](reviews/sourcepack_v23.36/EXTERNAL_AI_VERIFIED_REVIEW_PROMPT.md) · [64集逐集阅读](reviews/sourcepack_v23.36/EPISODE_INDEX.md) · [8批阅读](reviews/sourcepack_v23.36/BATCH_INDEX.md) · [源文件清单](reviews/sourcepack_v23.36/SOURCE_MANIFEST.json) · [全文数据一致性校验](reviews/sourcepack_v23.36/verify_sourcepack.py) · [报告逐字引证校验](reviews/sourcepack_v23.36/verify_evidence.py)。
